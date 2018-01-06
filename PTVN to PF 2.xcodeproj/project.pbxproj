@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794C4C5C1E30612A00D18854 /* DragAndDropZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C4C5B1E30612A00D18854 /* DragAndDropZone.swift */; };
+		7965999E1E2FD3F8002D3D0F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7965999D1E2FD3F8002D3D0F /* Model.swift */; };
 		797280191E1E96C60024573B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797280181E1E96C60024573B /* AppDelegate.swift */; };
 		7972801B1E1E96C60024573B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972801A1E1E96C60024573B /* ViewController.swift */; };
 		7972801D1E1E96C60024573B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7972801C1E1E96C60024573B /* Assets.xcassets */; };
 		797280201E1E96C60024573B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7972801E1E1E96C60024573B /* Main.storyboard */; };
+		79CD48081E253A480000C03D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CD48071E253A480000C03D /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		794C4C5B1E30612A00D18854 /* DragAndDropZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragAndDropZone.swift; sourceTree = "<group>"; };
+		7965999D1E2FD3F8002D3D0F /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		797280151E1E96C60024573B /* PTVN to PF 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTVN to PF 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		797280181E1E96C60024573B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7972801A1E1E96C60024573B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7972801C1E1E96C60024573B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7972801F1E1E96C60024573B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797280211E1E96C60024573B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CD48071E253A480000C03D /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 			children = (
 				797280181E1E96C60024573B /* AppDelegate.swift */,
 				7972801A1E1E96C60024573B /* ViewController.swift */,
+				7965999D1E2FD3F8002D3D0F /* Model.swift */,
 				7972801C1E1E96C60024573B /* Assets.xcassets */,
 				7972801E1E1E96C60024573B /* Main.storyboard */,
 				797280211E1E96C60024573B /* Info.plist */,
+				794C4C5B1E30612A00D18854 /* DragAndDropZone.swift */,
+				79CD48071E253A480000C03D /* StringExtensions.swift */,
 			);
 			path = "PTVN to PF 2";
 			sourceTree = "<group>";
@@ -133,6 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7965999E1E2FD3F8002D3D0F /* Model.swift in Sources */,
+				79CD48081E253A480000C03D /* StringExtensions.swift in Sources */,
+				794C4C5C1E30612A00D18854 /* DragAndDropZone.swift in Sources */,
 				7972801B1E1E96C60024573B /* ViewController.swift in Sources */,
 				797280191E1E96C60024573B /* AppDelegate.swift in Sources */,
 			);
@@ -250,6 +262,7 @@
 				DEVELOPMENT_TEAM = VY6BVT84SC;
 				INFOPLIST_FILE = "PTVN to PF 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.PTVN-to-PF-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -264,6 +277,7 @@
 				DEVELOPMENT_TEAM = VY6BVT84SC;
 				INFOPLIST_FILE = "PTVN to PF 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fulgentwake.PTVN-to-PF-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -289,6 +303,7 @@
 				797280261E1E96C60024573B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
